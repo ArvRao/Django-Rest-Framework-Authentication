@@ -9,6 +9,7 @@ Run the virtual Environment:
 source env/bin/activate
 
 Step 2: Install all dependencies:
+cd authtutorial
 
 pip install -r requirements.txt
 
