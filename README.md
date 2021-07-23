@@ -16,14 +16,13 @@ pip install -r requirements.txt
 Step 3: Run the migrations and create database
 
 python3 manage.py makemigrations
+
 python3 manage.py migrate
 
 Step 4: Run the server
 
 python3 manage.py runserver
 
-Hope you found this helpful. Hope you love it.
-Cheers!
 
 Tutorial:
 Register users by providing their name, unique email and password.
@@ -45,3 +44,6 @@ And finally the logout view. Here the cookie is completely destroyed using the b
 
 Finally the cookie is destroyed when the user logs out of the application.
 
+
+Hope you found this helpful. Hope you love it.
+Cheers!
